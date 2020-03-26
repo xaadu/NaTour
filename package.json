@@ -1,0 +1,23 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "A simple NaTour Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "compile:sassw": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaadu/NaTour.git"
+  },
+  "author": "Xayed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaadu/NaTour/issues"
+  },
+  "homepage": "https://github.com/xaadu/NaTour#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
